@@ -1,10 +1,10 @@
-// function sum() {
-//     console.log(arguments)
-// }
+function sum() {
+    console.log(arguments)
+}
 
-// function sum() {
-//     return arguments.reduce((total, el) => total + el)
-// }
+function sum() {
+    return arguments.reduce((total, el) => total + el)
+}
 
 function sum(...nums) {
     return nums.reduce((total, el) => total + el)
