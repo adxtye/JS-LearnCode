@@ -25,22 +25,22 @@ const user2 = {
     state: 'Oklahoma'
 }
 
-const firstName = user.firstName;
-const lastName = user.lastName;
+// const firstName = user.firstName;
+// const lastName = user.lastName;
 
-const email = user.email;
-const { email, firstName, lastName, city } = user;
+// const email = user.email;
+// const { email, firstName, lastName, city } = user;
 
-const { born: birthYear, died: deathYear = 'N/A', bornPlace = 'N/A'} = user2;
+// const { born: birthYear, died: deathYear = 'N/A', bornPlace = 'N/A'} = user2;
 
-function fullName(user) {
-    return `${user.firstName} ${user.lastName}`;
-}
+// function fullName(user) {
+//     return `${user.firstName} ${user.lastName}`;
+// }
 
-function fullName(user) {
-    const { firstName, lastName } = user;
-    return `${firstName} ${lastName}`;
-}
+// function fullName(user) {
+//     const { firstName, lastName } = user;
+//     return `${firstName} ${lastName}`;
+// }
 
 function fullName({ firstName, lastName}) {
     return `${firstName} ${lastName}`;
