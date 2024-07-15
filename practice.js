@@ -1,9 +1,9 @@
-// let value = [];
-// var todo = "Something";
-// value.push(todo);
-// var todo = "HAHA";
-// value.push(todo);
-// console.log(value);
+let value = [];
+var todo = "Something";
+value.push(todo);
+var todo = "HAHA";
+value.push(todo);
+console.log(value);
 
 // for (let i = 0; i < todo.length; i++){
 //     console.log(`${i}: ${todo[i]}`);
@@ -22,21 +22,21 @@
 // let integer;
 // let entry = false;
 
-// while (integer !== 'quit' ) {
-//     integer = prompt("Enter the integer");
-//     if (integer = 1){
-//          console.log("cool");
-//     }
-//     else if (integer = 2){
-//         console.log("great");
-//     }
-//     else if (integer = 'quit') {
-//         break;
-//     }
-//     else {
-//         console.log("Put a valid number");
-//     }
-// } 
+while (integer !== 'quit' ) {
+    integer = prompt("Enter the integer");
+    if (integer = 1){
+         console.log("cool");
+    }
+    else if (integer = 2){
+        console.log("great");
+    }
+    else if (integer = 'quit') {
+        break;
+    }
+    else {
+        console.log("Put a valid number");
+    }
+} 
 
 // if (integer = 'quit'){
 //     console.log("The End");
