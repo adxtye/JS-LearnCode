@@ -29,5 +29,3 @@ const person = {
 let another;
 const nothing = null;
 
-10 == '10';
-10 === '10';
